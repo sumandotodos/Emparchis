@@ -1,0 +1,328 @@
+[
+   
+	{
+		"N": 0,
+		"SITUACION": "Montas una asociación que se dedica a recopilar y denunciar casos de violaciones de derechos humanos que sufren los indígenas que viven en las selvas de Sudamérica a cargo de terratenientes y empresas extranjeras.",
+		"RESPUESTA": "Veo que mi labor es útil porque muchas veces estos casos ni siquiera salen a la luz. Los indígenas no tienen medios, muchas veces ni siquiera hablan correctamente el idioma oficial del país, y tampoco tienen armas. Su única posibilidad de no ser atropellados es que personas con medios y conocimientos hagan públicos sus casos en los medios de comunicación y denuncien a los culpables ante las autoridades, que muchas veces han sido sobornadas. Sé que mi trabajo es útil porque he sido amenazado por los terratenientes varias veces.",
+		"POSITIVA": 1
+	},
+	{
+    "N": 1,
+		"SITUACION": "Te haces voluntario de un colectivo desfavorecido, dedicando varias horas a la semana a estar a pie de calle ayudándoles.",
+		"RESPUESTA": "Me he apuntado a una ONG que va cada noche a compartir un termo de café con personas sin hogar. Y gracias a ello he podido darme cuenta de lo afortunado que soy. También me he sentido especialmente afortunado al ver cómo agradecen esas personas que alguien vaya a hablarles de tú a tú, sin mirarles como a un indigente. Son personas corrientes, a las que la vida les ha dado una serie de golpes muy seguidos haciendo que acaben en la calle, por eso me parece tan injusto que alguien les mire por encima del hombro, y por eso me siento tan feliz de servir con mi voluntariado de contrapeso a estas actitudes tan ignorantes.",
+		"POSITIVA": 1
+	},
+	{
+    "N": 2,
+		"SITUACION": "Te nombran alto cargo en el ministerio de hacienda y tu primera iniciativa es promover una ley para que las grandes fortunas no puedan evadir dinero a Hacienda a través de paraísos fiscales.",
+		"RESPUESTA": "Creo que no perjudico a nadie con mi iniciativa. Los dueños de esas grandes fortunas no necesitan ese enorme capital para vivir, no les aporta nada, no les va a hacer más felices. Pero bien empleado por el estado, ese dinero es clave para poder pagar sus pensiones a los ancianos, o becas comedor a familias con bajos recursos, o sanidad o educación. Creo que el día de mañana mis hijos y mis nietos se sentirán muy orgullosos del ejemplo de su abuelo.",
+		"POSITIVA": 1
+	},
+	{
+    "N": 3,
+		"SITUACION": "Eres Agustín, has vivido de labrar la tierra toda tu vida, igual que tu padre y tu abuelo. Pero hace unos años te convencieron para empezar a plantar transgénicos y ahora te das cuenta de que dependes de una multinacional para comprar semillas, lo que hace que la cosecha apenas te dé para cubrir costes y mantener a tu familia. Alguien te dice que esta multinacional hace lo mismo con millones de agricultores en todo el mundo.",
+		"RESPUESTA": "No comprendo muy bien esta situación. Las semillas siempre han sido algo gratuito para nosotros, te las daba la cosecha anterior. Pero las semillas transgénicas que venden no producen semilla. Estás atado a ellos, y sus semillas no son precisamente baratas, muchos agricultores humildes se están arruinando, ellos en cambio están ganando millones. Me pregunto hasta qué punto puede compensar vivir en una gran mansión o tener un coche de lujo, ¿hasta el punto de arruinar la vida de millones de familias? No lo creo, creo más bien que no han pensado bien sobre las consecuencias de lo que hacen.",
+		"POSITIVA": 0
+	},
+	{
+    "N": 4,
+		"SITUACION": "Entras como alto responsable político y decides iniciar una cruzada contra la corrupción, aunque ello implique ir contra compañeros de partido, conocidos, o incluso amigos.",
+		"RESPUESTA": "Me siento bien. Incluso aunque nadie me dé las gracias, y aunque muchos vayan a por mí, me calumnien, y traten de derribarme, sé que estoy haciendo algo de lo que me sentiré orgulloso cuando sea un viejo y mire atrás en mi vida. ",
+		"POSITIVA": 1
+	},
+	{
+    "N": 5,
+		"SITUACION": "Eres Abdul, eras agricultor hasta que las tierras donde plantabas dejaron de ser fértiles porque desviaron el curso de un río. Un día alguien te dijo que fue una empresa extranjera, con permiso del gobierno local, que compró miles de hectáreas porque tenían mucha agua.",
+		"RESPUESTA": "Pienso sobre ello y no comprendo. El agua es vida, literalmente. Mi familia y yo, y muchas otras familias, vivíamos del agua y la tierra. El dinero es un papel, o un dato en un ordenador. Nuestro gobierno y los dueños de esas empresas extranjeras podrán acceder a muchos lujos gracias al agua que nos han quitado, pero no creo que esos lujos les hagan muy felices. Desde luego que si supieran el daño que están causando, si trataran de verdad de entenderlo, no solo no serían felices, sino que sufrirían.",
+		"POSITIVA": 0
+	},
+	{
+    "N": 6,
+		"SITUACION": "Eres Pedro, invertiste todos tus ahorros en un producto que te ofreció el director de un banco y lo has perdido todo.",
+		"RESPUESTA": "Esos ahorros eran para ayudar a mis hijos a pagar la entrada del piso, porque con el salario de mileurista que tienen, es la única manera en que pueden llegar a pagar la letra. Cuando pienso en que las personas que planearon y orquestaron esta estafa ya tienen acumulado mucho más dinero del que van a necesitar en toda su vida ellos, sus hijos, sus nietos y sus tataranietos, se me cae el alma a los pies. ",
+		"POSITIVA": 0
+	},
+	{
+    "N": 7,
+		"SITUACION": "Eres Javier, tienes dos hijos pequeños a los que solo ves los fines de semana, porque cuando llegas a las 10 a casa, están ya acostados. Tu mujer apenas los ve un rato para cenar, porque ella llega a las 9. Pero si no accedéis a hacer estas horas extra no pagadas, sabéis que seréis despedidos.",
+		"RESPUESTA": "Me da mucha pena no poder disfrutar de mis hijos durante sus primeros años de vida. Por mí y por ellos, que están siempre preguntando por mí o por su madre. Para un niño es esencial crecer junto a su padre, pero en nuestra familia eso, que debería ser un derecho, nos está prohibido. El domingo por la tarde es el día más duro para mí. Lo que más me fastidia es que la empresa donde trabajo gana dinero a rabiar, que los accionistas gastan en lujos que no les aportan absolutamente nada de lo acostumbrados que están a ellos.",
+		"POSITIVA": 0
+	},
+	{
+    "N": 8,
+		"SITUACION": "Eres Ana, trabajas jornadas de 10 horas en una empresa que tiene beneficios record. Sin embargo, con tu sueldo apenas puedes llegar a fin de mes.",
+		"RESPUESTA": "No entiendo dónde va el dinero en esta empresa. ¿Realmente los directivos, que también son accionistas o sus familiares, aportan a la compañía 500 veces más ganancias que yo, para tener un sueldo 500 veces más elevado? Creo que una organización es como un puzle, cada pieza es necesaria y cada pieza hace su función. No pretendo ganar lo mismo que un directivo, pero sí poder llegar a fin de mes. ",
+		"POSITIVA": 0
+	},
+	{
+    "N": 9,
+		"SITUACION": "Eres Anul, tienes 11 años y una enfermedad en la piel que hace que tengas fuertes dolores, como si te quemara. Son causados por una planta química que hay cerca de donde vives, cuyas medidas de seguridad serían inaceptables en el país rico de donde es la multinacional, por eso ha venido a instalarse tu país.",
+		"RESPUESTA": "Estoy seguro de que si los dueños de esa empresa padecieran ellos mismos, o sus hijos, el dolor físico que tengo que soportar yo, dejarían de ganar un poco de dinero a cambio de saber que nadie está padeciendo este sufrimiento provocado por ellos. Entiendo que quieran reducir los costes de producción, eso me lo han enseñado en la escuela, pero sin dañar a otros.",
+		"POSITIVA": 0
+	},
+	{
+    "N": 10,
+		"SITUACION": "Eres Shalel, y eres portador del VIH. Durante un tiempo has estado recibiendo medicación de una ONG para no desarrollar el SIDA, pero han dejado de dártela porque las autoridades han cerrado la fábrica que producía los medicamentos genéricos que te daban.",
+		"RESPUESTA": "Los médicos me han dicho que sin medicación mi esperanza de vida no será alta. Eso me da mucha pena porque tengo dos hijos pequeños, soy viuda, y no tengo ningún familiar que pueda cuidar de ellos cuando yo no esté. Hay algo que no entiendo, si una persona pobre como yo nunca les va a poder comprar sus medicamentos a esas multinacionales, ¿por qué prohíben que se fabriquen genéricos para que los pobres podamos acceder a ellos?",
+		"POSITIVA": 0
+	},
+	{
+    "N": 11,
+		"SITUACION": "Eres Miguel Ángel, te ganas la vida vendiendo clínex en los semáforos. Decidiste empezar a hacerlo después de años buscando trabajo sin éxito. A veces notas cómo algunos conductores te miran con un mal gesto.",
+		"RESPUESTA": "A veces mientras paso entre los coches me pregunto qué piensan de mí las personas que me miran con desprecio y mueven el coche para que no me acerque. Quizá piensan que soy malvado, o un vago, o peligroso, no lo sé. Desde luego para mí vender clínex no es plato de gusto. Me gano dos duros, a costa de aguantar muchas humillaciones. Lo que más me molesta es que la gente no se da cuenta de que lo que me ha pasado a mí, le puede pasar a cualquiera. Pierdes el trabajo, luego la pareja, te vas distanciando de los amigos, no tienes familia que te apoye, y acabas en la calle. De ser uno como ellos, a ser un “apestado” en cuestión de unos pocos meses.",
+		"POSITIVA": 0
+	},
+	{
+    "N": 12,
+		"SITUACION": "Eres Jum, toda tu vida te has dedicado a la pesca, pero ya no quedan peces. Desde que una compañía extranjera empezó a faenar con redes de arrastre, ha acabado con los caladeros locales.",
+		"RESPUESTA": "No me parece justo que vengan personas de lugares lejanos y arrasen con lo que ha sido nuestro modo de vida durante muchas generaciones. Han acabado con los peces que había en sus costas, ¿y ahora van a acabar con los nuestros? Creo que ni nuestro gobierno, ni esas compañías extranjeras se han parado a pensar en el dolor que están causando. Nos han quitado el medio de vida digno que teníamos a miles de familias.",
+		"POSITIVA": 0
+	},
+	{
+    "N": 13,
+		"SITUACION": "Eres Zaluma, vivías de una pequeña tienda que daba trabajo a toda vuestra familia. Eso fue hasta que vino una gran empresa extranjera y construyó un gran centro comercial que acabó con el pequeño comercio.",
+		"RESPUESTA": "Las ventas dieron un bajón espectacular en cuanto abrieron el centro comercial, y al cabo de pocos meses tuvimos que cerrar. Allí trabajábamos mi marido, mi hermana y yo. Cualquier persona tiene derecho a montar un negocio y ganarse la vida. Pero ya tienes más dinero del que necesitas para vivir, ¿por qué vas a otros lugares lejanos para tratar de acumular aún más, a costa de dejar sin trabajo a muchas familias que necesitan esos ingresos para vivir?",
+		"POSITIVA": 0
+	},
+	{
+    "N": 14,
+		"SITUACION": "Eres Karim, sobrevives trabajando en una mina de oro en África. Un día un anciano te dice que la empresa que explota la mina es de fuera, y que todo el oro que sacáis tú y tus compañeros viaja en avión a países ricos, donde su valor se multiplicará por varios miles.",
+		"RESPUESTA": "Me extrañó mucho lo que me dijo. La parte más dura es bajar a la mina y picar la piedra. No comprendo que sea la parte más barata del proceso. Quien compra una pieza de oro generalmente la lleva durante toda su vida, es algo de lo que se siente orgulloso. Sin embargo si supiera en qué condiciones trabajamos aquí para sacar el oro que el está luciendo, no se sentiría tan orgulloso de su pieza.",
+		"POSITIVA": 0
+	},
+	{
+    "N": 15,
+		"SITUACION": "Eres Maluca, vives en un pequeño pueblo azotado por la violencia del narco desde hace años, ya que es zona de paso de la droga que va a los países ricos. Hace poco murió un miembro de tu familia por herida de bala en un fuego cruzado.",
+		"RESPUESTA": "Está claro que deben de traerlas de fuera, de algún país rico que gana bastante con su venta. Puede que no se las vendan directamente a los narcos, pero está claro que si las armas desembarcan acá, antes o después llegarán a sus manos. Sin armas esto sería otra cosa, los narcos no tendrían poder para tener asustada a la gente. Se podría vivir en paz. ",
+		"POSITIVA": 0
+	},
+	{
+    "N": 16,
+		"SITUACION": "Eres Hebe, vives en un campo de refugiados desde hace diez años. Cuando llueve todo se embarra, y por las noches hace frío en las tiendas.",
+		"RESPUESTA": "Creo que no mienten, dicen que ha bajado el presupuesto de cooperación al desarrollo, y que no tienen medicinas suficientes, ni dinero para que vengan especialistas. Tengo dolores, y está claro que mi salud está empeorando. La verdad que estoy perdiendo la esperanza.",
+		"POSITIVA": 0
+	},
+	{
+    "N": 17,
+		"SITUACION": "Eres Abdel, y llevas varios meses esperando junto a la valla de Melilla para poder cruzar la frontera. Con el miedo en el cuerpo de recibir una paliza de la policía en cualquier momento en que decidan hacer una redada.",
+		"RESPUESTA": "Es muy duro. Nos hemos construido tiendas con plásticos y encendemos fogatas cuando podemos. Pero hace mucho frío por la noche. A veces vienen los gendarmes marroquíes y nos destruyen el campo y nos pegan. Vivimos pendientes de la oportunidad de cruzar al otro lado, sabiendo que es fácil sufrir un corte serio, o caer desde lo alto de la valla. A menudo los guardias civiles nos devuelven a marruecos, donde los gendarmes nos pegarán una paliza. ",
+		"POSITIVA": 0
+	},
+	{
+    "N": 18,
+		"SITUACION": "Eres David, estabas sin trabajo y te ofrecieron trabajar en un matadero de cerdos. Aceptaste el trabajo porque necesitabas el dinero, pero al ver la crueldad con la que tratan a los animales te lo estás repensando.",
+		"RESPUESTA": "Creo que nadie creería cómo los animales destinados al consumo humano si no lo viera. Hay animales con heridas abiertas sin atención veterinaria, animales muertos conviviendo con otros vivos, canibalismo, animales viviendo entre sus excrementos y extrema suciedad, en definitiva, es un campo de tortura. ",
+		"POSITIVA": 0
+	},
+	{
+    "N": 19,
+		"SITUACION": "Eres Tatiana, madre soltera con 2 hijos, a los que te cuesta mantener con tu bajo salario.",
+		"RESPUESTA": "Si me quitaran a mis hijos mi vida dejaría de tener sentido. Todo lo que he trabajado y todo mi tiempo se lo dedico a ellos. Pero sencillamente no puedo traer más dinero a casa. Mi ex no me pasa la pensión de los niños, y las autoridades tampoco hacen gran cosa, ni han logrado que me la pague. Si yo no puedo dar a mis hijos todo lo que necesitan, ¿no será que hay algo que no está bien en el sistema?",
+		"POSITIVA": 0
+	},
+	{
+    "N": 20,
+		"SITUACION": "Eres Juan, llevas mucho tiempo viviendo y trabajando en España, pero no cumples los requisitos para que te den un visado de residencia, por lo que, si en cualquier momento en que te piden la documentación, puede que te lleven a un centro de internamiento de inmigrantes y te dejen encerrado allí durante unos cuantos meses o años.",
+		"RESPUESTA": "Vivo con mucho estrés mi situación. En cualquier momento, mientras doy un paseo con un amigo, puedo ser detenido, encerrado, y expulsado. Desde que llegué a España he estado trabajando, y gracias a mi trabajo puedo mantener a mis hijos y a mi mujer con las remesas que les envío. Si me detienen mis hijos no podrían crecer y estudiar como cualquier niño merece, ese es mi mayor miedo. Y ya bastante tienen con no poder ver a su padre.",
+		"POSITIVA": 0
+	},
+	{
+    "N": 21,
+		"SITUACION": "Eres Shalim, padeces una enfermedad crónica que te obliga a medicarte y a visitar el hospital cada poco tiempo. Sin embargo, desde hace un tiempo no puedes hacerlo. El no tener papeles ha hecho que dejes de poder recibir asistencia médica.",
+		"RESPUESTA": "Me quedé muy asombrado cuando me dijeron que ya no iban a atenderme más. No lo entendía, un hospital atiende a los enfermos, no les deja morir. Creo que los políticos que tomaron esta decisión estaban pensando más en números que en personas. Entiendo que con la crisis hay que ahorrar, pero que ese ahorro sea dejando de atender a las personas enfermas me hace sentir muy triste. Creo que ningún político se ha puesto jamás en nuestra situación, porque de haberlo hecho habrían recortado gastos de cualquier otro sitio.",
+		"POSITIVA": 0
+	},
+	{
+    "N": 22,
+		"SITUACION": "Eres Cristina, madre soltera, camarera y limpiadora. Con tu sueldo apenas te da para pagar el alquiler, las facturas de la casa, la comida... Suponía un tremendo alivio para ti el que tus hijos pudieran comer en el comedor, pero ahora han recortado eso...",
+		"RESPUESTA": "Se me cae el alma a los pies cuando mis hijos me dicen que tienen hambre y no tengo comida para darles. He llegado a recoger la comida que tiran los súper a los contenedores, yendo a otros barrios por vergüenza. La verdad que a veces no entiendo un mundo en el que una persona que trabaja como yo, no tenga para mantener a sus hijos, y al mismo tiempo haya tanto despilfarro y tanto lujo a veces grotesco. ",
+		"POSITIVA": 0
+	},
+	{
+    "N": 23,
+		"SITUACION": "Eres Ahmed. Las duras condiciones en tu pueblo natal hicieron que con solo 15 años decidieras emprender el peligroso camino hacia Europa.",
+		"RESPUESTA": "Como no tenía dinero para ir en avión, ni en barca, tuve que esperar durante días hasta que pude colarme en los bajos de un camión sin ser visto. La posición era incómoda y a medida que pasaban las horas se me iban durmiendo y cansando las articulaciones. Más de una vez creí que me iba a caer al suelo e iba a morir aplastado por el camión.",
+		"POSITIVA": 0
+	},
+	{
+    "N": 24,
+		"SITUACION": "Eres Shalim, a pesar de ser consciente de las grandes penalidades y el elevado riesgo de tratar de cruzar a Europa, decidiste hacerlo a causa de la miseria e inseguridad de tu ciudad natal.",
+		"RESPUESTA": "En mi pueblo no había futuro. A causa de la guerra civil, en cualquier momento los soldados podían llamar a tu puerta y obligarte a combatir con ellos. El SIDA y otras enfermedades y la falta de agua hacían que la vida valiera muy poco. No podía mantener a mi familia, y confiaba en que, si lograba llegar a Europa, podría traerles después conmigo.",
+		"POSITIVA": 0
+	},
+	{
+    "N": 25,
+		"SITUACION": "Eres Raúl. Tú y tu mujer os quedasteis sin empleo y no habéis podido pagar la hipoteca de la casa, por lo que el viernes que viene os desahucian.",
+		"RESPUESTA": "Siento miedo, una gran incertidumbre. No me acabo de hacer a la idea de que me vayan a echar de mi propia casa, ni soy capaz de pensar en a dónde iremos o qué haré. Sobre todo me preocupa la niña.",
+		"POSITIVA": 0
+	},
+	{
+    "N": 26,
+		"SITUACION": "Eres Matías. Te enganchaste a la heroína y al poco tiempo acabaste en la calle. Solo piensas en conseguir una nueva dosis.",
+		"RESPUESTA": "Me quedé sin trabajo, y al poco me dejó mi pareja. Me fui encerrando en mí mismo, y dejé de ver a mis amigos. Había consumido coca ocasionalmente, y un día alguien me ofreció heroína. Me enganchó casi desde el primer momento, y poco a poco fui incrementando las dosis.",
+		"POSITIVA": 0
+	},
+	{
+    "N": 27,
+		"SITUACION": "Eres Javier, trabajas de profesor y cada día te tienes que enfrentar a alumnos que hablan mientras explicas, y a veces incluso te responden de malos modos.",
+		"RESPUESTA": "Es una profesión muy estresante. Creo que no se hacen una idea de lo duro que es estar delante de 20 o 30 personas y tener que estar luchando casi continuamente porque te presten atención. Cada mañana cuando voy a la escuela, no lo hago contenta, y a veces me cuesta conciliar el sueño por la noche.",
+		"POSITIVA": 0
+	},
+	{
+    "N": 28,
+		"SITUACION": "Eres Carmen. En el colegio donde trabajas a menudo surgen conflictos, y a veces los padres, en lugar de tratar de que sus hijos se comporten adecuadamente, les defienden a toda costa. ",
+		"RESPUESTA": "A veces tengo la sensación de que los padres piensan que son mis clientes y yo una vendedora. Pero no es así, mi misión es educar a su hijo, no permitirle hacer lo que le dé la gana, incluso cuando molesta a otros alumnos o entorpece el buen funcionamiento de la clase.",
+		"POSITIVA": 0
+	},
+	{
+    "N": 29,
+		"SITUACION": "Eres Jacobo. Trabajas de 9 a 9 y no tienes tiempo para hacer otra cosa.",
+		"RESPUESTA": "Me pregunto si los dueños de la empresa se han parado a pensar alguna vez en cómo vivimos los que trabajamos para ellos. Ni si han reflexionado sobre si realmente tener más dinero les hace más felices.",
+		"POSITIVA": 0
+	},
+	{
+    "N": 30,
+		"SITUACION": "Eres Carolina, te resulta difícil comprender la letra pequeña y un importante contrato que firmaste con el banco, resultó ser algo muy distinto de lo que te dijo el empleado del banco.",
+		"RESPUESTA": "Me llama la atención que tanto entre directivos como entre empleados, se pueda aceptar una filosofía de trabajo en la que ganar dinero está por encima de la confianza que un cliente ha depositado en un empleado. No entiendo que para ganar dinero valga todo, incluso engañar. Y tampoco entiendo que las autoridades no hagan nada. ",
+		"POSITIVA": 0
+	},
+	{
+    "N": 31,
+		"SITUACION": "Eres Yasira. La guerra en Siria te obligó a huir con tu familia de la ciudad donde habíais vivido toda la vida.",
+		"RESPUESTA": "No comprendía nada. Venía de un país en guerra, con niños pequeños, como todos los demás. Lo dejamos todo atrás, y llegamos esperanzados de poder rehacer nuestras vidas, a salvo de las bombas y la violencia. Creo que ningún político sería capaz de mirar a una familia a la cara y decirles que no hay sitio para ellos. Solo son capaces de dar las órdenes desde sus despachos, para que los soldados las ejecuten sin pensar.",
+		"POSITIVA": 0
+	},
+	{
+    "N": 32,
+		"SITUACION": "Eres Pancho y aunque llevas casi 10 años en España, alguna vez tienes que padecer insultos o actitudes racistas.",
+		"RESPUESTA": "A menudo me miran mal, o de lejos me llaman sudaca, o me gritan que me vaya a mi país. De cerca saliendo por la noche me he tenido que encontrar con la actitud grosera de algunas chicas que cuando escuchan mi acento me dan la espalda y hacen comentarios sobre mí entre ellas. nada. Venía de un país en guerra, con niños pequeños, como todos los demás. Lo dejamos todo atrás, y llegamos esperanzados de poder rehacer nuestras vidas, a salvo de las bombas y la violencia. Creo que ningún político sería capaz de mirar a una familia a la cara y decirles que no hay sitio para ellos. Solo son capaces de dar las órdenes desde sus despachos, para que los soldados las ejecuten sin pensar.",
+		"POSITIVA": 0
+	},
+	{
+    "N": 33,
+		"SITUACION": "Eres Rafa, te has cambiado de colegio hace poco y aunque has tratado de hacer nuevos amigos, el resto de compañeros te han marginado.",
+		"RESPUESTA": "Nunca me había pasado algo así. Llegar la hora del recreo y notar que el resto de chicos me rehúyen o no me dejan participar en sus juegos. En realidad, ni siquiera son todos, hay un líder que dice que no, y los otros le siguen. Supongo que queda más guay seguir al líder que va de malote, que hacer lo que está bien.",
+		"POSITIVA": 0
+	},
+	{
+    "N": 34,
+		"SITUACION": "Eres Tomás, en tu colegio hay un grupo de macarras que te acosan y te hacen bullying. El resto de compañeros hace como que no lo ve y no interviene.",
+		"RESPUESTA": "Odio ir a clase. Preferiría estar haciendo cualquier otra cosa antes que ir a clase, o si tengo que ir, preferiría pasar las 6 horas encerrado en un despacho haciendo deberes. Es muy duro tener que soportar las humillaciones diarias de 3 o 4 macarras. Llegar con la incertidumbre de no saber qué día tendrán, y si tocará recibir insultos o golpes. Lo que más me duele es que veo a compañeros que miran con lástima, saben que lo estoy pasando mal pero no tienen el valor de intervenir. Si lo hicieran me servirían de apoyo, y los 3 o 4 macarras que me hacen la vida imposible no se atreverían a seguir haciéndolo.",
+		"POSITIVA": 0
+	},
+	{
+    "N": 35,
+		"SITUACION": "Eres Juana, y tienes una enfermedad congénita que te impide caminar y moverte bien. Eso hace que a veces tengas que soportar burlas de alguno de tus compañeros.",
+		"RESPUESTA": "Mi enfermedad es un verdadero lastre, pero más o menos me he acabado por acostumbrar a ella. A lo que no me puedo acostumbrar es a escuchar risitas o comentarios a mis espaldas en torno a la enfermedad. Es como si me golpearan, recordándomela, y además haciendo como si el padecer esta discapacidad, fuera algo gracioso, algo de lo que burlarse.",
+		"POSITIVA": 0
+	},
+	{
+    "N": 36,
+		"SITUACION": "Eres Karim, y desde hace años trabajas por defender los derechos humanos en tu país, lo que te ha llevado varias veces a pisar la cárcel. A veces te llama la atención cómo los políticos europeos hablan tanto de derechos humanos y sin embargo hacen importantes negocios con los gobernantes de tu país vendiéndoles armas.",
+		"RESPUESTA": "Supongo que ellos se mueven en unos entornos muy agradables y muy limpios. Lujosas residencias donde reciben todas las atenciones. Seguro que los políticos de mi país son siempre muy agradables con ellos, incluso puede que lleguen a entablar cierta amistad. Pero lo cierto es que esconden terribles secretos de torturas y atrocidades cometidas contra personas inocentes. Si los políticos extranjeros se atrevieran a salir del itinerario oficial y conocieran de primera mano estos hechos, seguro que no volvían a vender ni una sola bala a mi gobierno.",
+		"POSITIVA": 0
+	},
+	{
+    "N": 37,
+		"SITUACION": "Eres Gracia, denunciaste un caso de corrupción y aunque ello supuso que perdiste tu puesto de trabajo, sirvió para parar unas prácticas corruptas que perjudicaban a todos. ",
+		"RESPUESTA": "Al principio me sentí desconcertada y mal. Había hecho lo correcto, y sin embargo el resultado fue que perdí mi puesto de trabajo y que nadie salió a apoyarme o a defenderme. Sin embargo pasado esto, me sentí bien, tranquila y con la satisfacción del deber cumplido. Ahora puedo vivir con la conciencia tranquila y me siento bien conmigo misma por el coraje que mostré. Algo que me alegra es que mi acción puede servir de inspiración a otros, y hacer que entre todos dejemos una sociedad mejor que la que encontramos.",
+		"POSITIVA": 0
+	},
+	{
+    "N": 38,
+		"SITUACION": "Eres Raúl. Aunque tienes derecho a una renta mínima de inserción que te ha sido concedida, la administración no te la está pagando argumentando que no hay fondos para ello, lo que hace que tengas que seguir malviviendo privado de unos recursos a los que tienes derecho.",
+		"RESPUESTA": "Creo que cualquier político que conociera de primera mano cómo vivimos las personas sin recursos, no dejaría que pasara ni un solo minuto sin poner fin a nuestra situación. Si no trabajamos no es porque seamos unos vagos, sino porque no podemos encontrar trabajo. Lo que más coraje me da es que mantengan la ley aun sabiendo que la están incumpliendo.",
+		"POSITIVA": 0
+	},
+	{
+    "N": 39,
+		"SITUACION": "Eres Nadia. Te quedaste sin trabajo y pronto no tuviste dinero para pagar algunas facturas de luz y de gas. El resultado fue que te dejaron sin suministro.",
+		"RESPUESTA": "Creo que los directivos de esas grandes empresas, o los gobernantes que permiten esto, sencillamente no se han puesto en nuestra piel. Esos millones no les sirven para nada, solo para acumular. En cambio poder garantizar a todos los ciudadanos unos servicios básicos esenciales que permitan que su vida deje de ser prácticamente un infierno, eso sí que le haría sentir bien a cualquier ser humano que se pare a reflexionar sobre ello.",
+		"POSITIVA": 0
+	},
+	{
+    "N": 40,
+		"SITUACION": "Eres Paula, aunque naciste como chico, te sientes más bien una chica. A veces tienes que aguantar en clase bromas pesadas por tu condición de transgénero.",
+		"RESPUESTA": "Creo que no entienden muy bien lo que significa nacer en un cuerpo que no te corresponde, pero lo cierto es que en parte me hacen sentir raro, diferente. Por sus palabras es como si tuviera algo de que avergonzarme. Lo que más me molesta es que el resto de los compañeros, aunque no están de acuerdo con estas burlas, callan. Y eso les da alas a los malotes para seguir metiéndose conmigo.",
+		"POSITIVA": 0
+	},
+	{
+    "N": 41,
+		"SITUACION": "Eres Katia, y trabajas atendiendo al público en una empresa donde suele acudir gente muy estresada, que a menudo la toma contigo y te trata mal. ",
+		"RESPUESTA": "Los primeros días me sentía confusa. No entendía por qué la tomaban conmigo, yo solo estaba haciendo mi trabajo y no era la culpable ni la causante de los problemas que traía la gente. Poco a poco me fui acostumbrando a tener paciencia con las personas un poco bordes, pero aun así me sigue doliendo que algunas personas a veces me falten al respeto. ",
+		"POSITIVA": 0
+	},
+	{
+    "N": 42,
+		"SITUACION": "Eres Ahmed. Un día jugando con unos amigos te estalló una mina anti-persona. Sentiste un gran dolor y luego perdiste el conocimiento.",
+		"RESPUESTA": "Creo que quien monta una fábrica de armamento, incluso quien trabaja en ella, o el político que permite que esas armas se vendan a países en guerra, realmente no tiene ni idea de las consecuencias que tendrá ese negocio. Si conociera esas consecuencias, si las hubiera vivido en primera persona, seguro que se daba cuenta de que el dinero que va a conseguir, o el trabajo que va a generar, no compensa.",
+		"POSITIVA": 0
+	},
+	{
+    "N": 43,
+		"SITUACION": "Eres Costel, una mafia te captó para venir a España a mendigar. A menudo te enfrentas al desprecio de personas que te miran mal. ",
+		"RESPUESTA": "En mi país hacía lo mismo, mendigar. He nacido en una familia pobre y me pusieron a mendigar desde pequeño. Me hubiera encantado trabajar, desde luego. Formar una familia y tener mi propia casa, como todo el mundo, pero desgraciadamente no ha sido posible. Lo que no entiendo es a las personas que encima me miran mal, o me insultan. Seguro que a ellas no les gustaría estar en mi lugar, y menos ser insultados por el mero hecho de ser pobres.",
+		"POSITIVA": 0
+	},
+	{
+    "N": 44,
+		"SITUACION": "Eres Pablo. La empresa donde trabajabas te ha despedido para poder aumentar sus beneficios, ya de por sí bastante elevados.",
+		"RESPUESTA": "No lo entiendo, siempre me he esforzado a la hora de hacer bien mi trabajo. Entiendo que una empresa tenga que obtener beneficios, pero si ya los obtiene, ¿por qué echar a gente? Tener un buen clima laboral y una cierta seguridad en el trabajo también es algo que mejora el rendimiento y la calidad de vida de los empleados. Al fin y al cabo somos integrantes de una misma organización, y a todos nos viene bien que haya buen ambiente.",
+		"POSITIVA": 0
+	},
+	{
+    "N": 45,
+		"SITUACION": "Eres Agha. Trabajas en el interior de una oscura y estrecha mina donde extraes diamantes a cambio de un salario que apenas te da para sobrevivir.",
+		"RESPUESTA": "Los diamantes son bonitos, entiendo que la gente quiera llevarlos. Aunque me imagino que para muchas personas sería más agradable llevarlos si supieran que no se han conseguido a base de explotar a personas. Porque el salario que me dan a cambio de un trabajo agotador, apenas me da para comer, y eso que me juego la vida cada vez que bajo a la mínima.",
+		"POSITIVA": 0
+	},
+	{
+    "N": 46,
+		"SITUACION": "Tu pareja está en paro y con tu sueldo apenas os da para pagar la hipoteca y mantener a vuestros hijos. De no ser por la ayuda de vuestros padres pensionistas...",
+		"RESPUESTA": "Siento un miedo aterrador. Siempre había visto esas imágenes de desahucios en el telediario pensando que eran cosas que solo les pasan a los otros, pero ahora veo que yo puedo ser el siguiente. No lo entiendo, porque siempre lo he dado todo en el trabajo, y mi pareja también. Ahora siento una inquietud enorme, llevamos varios años pagados de la hipoteca, pero los precios han bajado. Perder el piso ahora nos rompería la vida a los dos.",
+		"POSITIVA": 0
+	},
+	{
+    "N": 47,
+		"SITUACION": "La única alternativa que tienes para poder comer es trabajar en una mina de coltán 12 horas al día los 7 días de la semana. Las medidas de seguridad no existen y el trabajo es extenuante.",
+		"RESPUESTA": "Me parece bien que se cambien de móvil si quieren y pueden. Pero creo que es injusto que aquí tengamos que estar trabajando casi como esclavos a cambio de un salario miserable. Si tienen que cobrar más caros los móviles, que suban el precio. Al fin y al cabo eso como mucho hará que tengan que esperar un poco más para renovar el móvil. Pero aquí nos dará la vida, a veces hay niños trabajando, porque sus padres no pueden seguir manteniéndoles. Y en cualquier caso el salario apenas da para vivir. ",
+		"POSITIVA": 0
+	},
+	{
+    "N": 48,
+		"SITUACION": "Trabajas en una fábrica de ropa con unos capataces que no permiten que descanses ni un minuto y que cuentan el número de veces que vas al baño, ya que están limitadas. El sueldo apenas te da para comer y alquilar una habitación minúscula.",
+		"RESPUESTA": "No puedo entender cómo el precio de la ropa sube tanto, yo dejo las prendas completamente acabadas, después solo tienen que transportarlas a otros países y ponerlas a la venta. Sé que hay gente que está acumulando muchos millones con el negocio de la ropa. No critico que ganen dinero, pero sí que lo hagan a costa de que nosotros cobremos un salario pequeñísimo a pesar de estar trabajando durante todo el día a un ritmo frenético, y a veces sin las medidas de seguridad necesarias.",
+		"POSITIVA": 0
+	},
+	{
+    "N": 49,
+		"SITUACION": "Un día el país donde vives se pone en guerra y tu ciudad es bombardeada...",
+		"RESPUESTA": "Quien inicia una guerra tiene que estar muy, muy alejado de la gente. Está claro que él seguramente no vaya a padecer las consecuencias, incluso si pierde la guerra tendrá un plan para huir a otro país, pero eso no significa que las consecuencias no estén ahí. Y es tan fácil conocerlas, solo hay que hablar con la gente, preguntar, y tratar de saber cómo se siente alguien que ha perdido a un familiar cercano, o su casa, o lo que era su vida. ¿Y todo para qué?  ",
+		"POSITIVA": 0
+	},
+	{
+    "N": 50,
+		"SITUACION": "Tu pareja te maltrata y te agrede a menudo. Sin embargo, dependes económicamente de ella, por lo que te da miedo poner fin a la relación.",
+		"RESPUESTA": "Es vivir en una tensión constante. Tengo miedo de ser atacado. Frío, y a menudo hambre. Pero lo peor es el dolor psicológico, de sentir que no vales nada.",
+		"POSITIVA": 0
+	},
+	{
+    "N": 51,
+		"SITUACION": "Eres Romina, una niña de 10 años a la que están haciendo ciberbullyng en el colegio. A través de distintas redes, gente que ni conoces se mete contigo, a veces de forma cruel.",
+		"RESPUESTA": "Me resulta extraño que la gente se meta conmigo sin conocerme. Aunque también me extraña que me ataquen los que me conocen, pues yo no les he hecho nada, y ellos a mí sí. Esta situación me resulta muy dolorosa e incomprensible. Tengo miedo a ir a la escuela, incluso a salir a la calle. Y algunos conocidos me están empezando a rehuir, como si les diera vergüenza ser vistos conmigo.",
+		"POSITIVA": 0
+	},
+	{
+    "N": 52,
+		"SITUACION": "Eres Amuel, un indígena que vive en plena selva amazónica. Tu pueblo lleva desde siempre viviendo allí, cuidando y respetando el entorno. Hasta que un día os expulsan a todos por la fuerza y os llevan a una reserva donde hay muchísimos más indígenas viviendo hacinados. Alguien te dice que es porque un terrateniente está comprando vuestras tierras para producir madera.",
+		"RESPUESTA": "No entiendo nada. Dicen que alguien ha comprado nuestras tierras. Nuestro pueblo no cree que la tierra le pueda pertenecer a nadie, somos nosotros los que pertenecemos a la tierra. Pero si esa tierra tuviera que pertenecer a alguien, sería a nosotros, que llevamos desde siempre viviendo allí. No molestamos a nadie y respetamos la naturaleza. Y nos han echado por la fuerza, y obligado a vivir en un lugar lleno de drogas, malnutrición y violencia. Sin tierra no somos nada, nos han quitado nuestra manera de vivir.",
+		"POSITIVA": 0
+	},
+	{
+    "N": 53,
+		"SITUACION": "Eres Abbas, cultivas café de sol a sol todos los días del año, y aun así apenas te da para alimentar a tu familia. A veces te sorprende que 250 gramos de café en occidente cuesten más que lo que tú ganas tras muchos días de trabajo.",
+		"RESPUESTA": "Creo que hay pocos trabajos tan duros como la plantación del café, y sin embargo me pagan tan poco que hay años que apenas tengo para mantener a mi familia dignamente. Una vez fui a la ciudad y vi a los hombres de negocios en su avión privado y sus coches de lujo, venían a negociar la compra del café. Me pregunto si pagando un precio justo no se sentirían mejor aunque perdieran un poco de todo ese dinero que acumulan.",
+		"POSITIVA": 0
+	}
+]
+
