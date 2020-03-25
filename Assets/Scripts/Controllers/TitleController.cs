@@ -246,7 +246,7 @@ public class TitleController : Task {
 //						wwwForm.AddField ("app", "EmpLite");
 //						loggedInUserTexttris.text = gameController.localUserEMail;
 //
-//						www = new WWW (gameController.networkAgent.bootstrapData.loginServer + ":" + gameController.networkAgent.bootstrapData.loginServerPort + Utils.CheckUserScript, wwwForm);
+//						www = new WWW (//gameController.networkAgent.bootstrapData.loginServer + ":" + //gameController.networkAgent.bootstrapData.loginServerPort + Utils.CheckUserScript, wwwForm);
 //						substate0 = 300; // wait for www to get result data
 //					} else {
 //						whiteCover.fadeIn ();

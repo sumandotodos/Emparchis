@@ -177,7 +177,7 @@ public class MainGameController : Task {
 		} else if (state == 11) { // waiting for test to finish
 			if (!isWaitingForTaskToComplete) {
 				gameController.synchCanvas.SetActive (true);
-				gameController.networkAgent.broadcast ("synch:");
+				//gameController.networkAgent.broadcast ("synch:");
 				state = 12;
 			}
 		} else if (state == 12) {
@@ -216,7 +216,7 @@ public class MainGameController : Task {
 				notMyRouletteActivity.SetActive (false);
 
 				// we have to sync here!!!
-				gameController.networkAgent.broadcast ("synch:");
+				//gameController.networkAgent.broadcast ("synch:");
 				gameController.synchCanvas.SetActive (true);
 				state = 21;
 			}
@@ -337,7 +337,7 @@ public class MainGameController : Task {
 		} else if (state == 800) { // end votation
 
 			if (voteForEndCounter == gameController.nPlayers) {
-				gameController.networkAgent.broadcast ("playerend:");
+				//gameController.networkAgent.broadcast ("playerend:");
 				turnFader.fadeOutTask (this);
 				state = 4;
 			}
@@ -408,7 +408,7 @@ public class MainGameController : Task {
 		canChooseIcon = false;
 
 		AudioManager.getInstance ().playSound (ticketSound_N);
-		gameController.networkAgent.sendCommand (0, "requestticket:" + gameController.localPlayerN + ":");
+		//gameController.networkAgent.sendCommand (0, "requestticket:" + gameController.localPlayerN + ":");
 
 	}
 
@@ -428,7 +428,7 @@ public class MainGameController : Task {
 
 		canChooseIcon = false;
 
-		gameController.networkAgent.sendCommand (0, "requestend:" + gameController.localPlayerN + ":");
+		//gameController.networkAgent.sendCommand (0, "requestend:" + gameController.localPlayerN + ":");
 
 	}
 
@@ -442,7 +442,7 @@ public class MainGameController : Task {
 		if (gameController.isMaster) {
 			++voteForEndCounter;
 		} else {
-			gameController.networkAgent.sendCommand (0, "endvoteyes:");
+			//gameController.networkAgent.sendCommand (0, "endvoteyes:");
 		}
 
 	}
@@ -454,12 +454,12 @@ public class MainGameController : Task {
 		voted = true;
 
 		if (gameController.isMaster) {
-			gameController.networkAgent.broadcast ("cancelend:");
+			//gameController.networkAgent.broadcast ("cancelend:");
 			hideEndVotationPanel ();
 			gameController.playerRequestedEnd = -1;
 			state = 2;
 		} else {
-			gameController.networkAgent.sendCommand (0, "endvoteno:");
+			//gameController.networkAgent.sendCommand (0, "endvoteno:");
 		}
 
 	}
@@ -493,7 +493,7 @@ public class MainGameController : Task {
 	public void setTurn(int pl) {
 		gameController.playerTurn = pl;
 		turnFader.fadeOutTask (this);
-		gameController.networkAgent.broadcast ("synch:");
+		//gameController.networkAgent.broadcast ("synch:");
 		syncCanvasDelayTimer = 2.0f;
 		state = 6000; // wait for fadeout
 	}
@@ -548,12 +548,12 @@ public class MainGameController : Task {
 		rouletteController.fader.setFadeValue (1.0f);
 		syncCanvasDelayTimer = 2.0f;
 		state = 5000;
-		gameController.networkAgent.broadcast ("synch:");
+		//gameController.networkAgent.broadcast ("synch:");
 
 	}
 
 	public void broadcastRestartTurn() {
-		gameController.networkAgent.broadcast ("restartturn");
+		//gameController.networkAgent.broadcast ("restartturn");
 		restartTurn ();
 	}
 

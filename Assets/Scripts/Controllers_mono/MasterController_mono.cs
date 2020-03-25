@@ -57,8 +57,8 @@ public class MasterController_mono : Task {
 	public TitleController_mono titleController;
 	public GameController_mono gameController;
 	public LogoController_mono logoController;
-	public CreateNewGameController_mono createNewGameController;
-	public JoinNewGameController_mono joinNewGameController;
+	//public CreateNewGameController_mono createNewGameController;
+	//public JoinNewGameController_mono joinNewGameController;
 	public FamilyController_mono familyController;
 	public GalleryController_mono galleryController;
 	public ChoosePlayerController_mono choosePlayerController;
@@ -271,13 +271,13 @@ public class MasterController_mono : Task {
 				if (startActivity.Equals ("StartNewGame")) {
 					titleActivity.SetActive (false);
 					startActivity = "MainGame";
-				}
+				}/*
 				if (startActivity.Equals ("JoinNewGame")) {
 					titleActivity.SetActive (false);
 					joinGameActivity.SetActive (true);
 					joinNewGameController.startJoinNewGameActivity (this);
 					//state = 4;
-				}
+				}*/
 				if (startActivity.Equals ("Gallery")) {
 					titleActivity.SetActive (false);
 					galleryActivity.SetActive (true);

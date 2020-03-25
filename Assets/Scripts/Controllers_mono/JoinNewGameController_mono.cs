@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+﻿/*using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 
@@ -78,7 +78,7 @@ public class JoinNewGameController_mono : Task {
 				myUser = myUser.Replace("@", "_");
 			}
 			//gameController.network_joinGame (arg [1], myUser);
-			//gameController.networkAgent.sendCommand (arg [0], "playerready:" + gameController.getUserLogin () + ":" + "001");
+			////gameController.networkAgent.sendCommand (arg [0], "playerready:" + gameController.getUserLogin () + ":" + "001");
 			gameController.localUserLogin = "-1";
 			masterController.playSound (gong);
 			
@@ -89,8 +89,8 @@ public class JoinNewGameController_mono : Task {
 		//else { // recovery
 
 			//gameController.network_joinGame (arg [1]);
-			////gameController.networkAgent.sendCommand (arg [0], "playerreconnect:" + gameController.getUserLogin ());
-			//gameController.networkAgent.broadcast("playerreconnect:" + gameController.getUserLogin() + ":");
+			//////gameController.networkAgent.sendCommand (arg [0], "playerreconnect:" + gameController.getUserLogin ());
+			////gameController.networkAgent.broadcast("playerreconnect:" + gameController.getUserLogin() + ":");
 
 		//}
 
@@ -202,3 +202,4 @@ public class JoinNewGameController_mono : Task {
 		gameController.saveData ();
 	}
 }
+*/

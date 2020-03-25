@@ -42,7 +42,7 @@ public class MasterController : Task {
 	public int testIncremento = 4;
 
 	public AudioManager aManager;
-	public FGBetterNetworkAgent networkAgent;
+	//public FGBetterNetworkAgent networkAgent;
 
 
 	public StringBank serverStatusStrings;
@@ -67,8 +67,8 @@ public class MasterController : Task {
 	public TitleController titleController;
 	public GameController gameController;
 	public LogoController logoController;
-	public CreateNewGameController createNewGameController;
-	public JoinNewGameController joinNewGameController;
+	//public CreateNewGameController createNewGameController;
+	//public JoinNewGameController joinNewGameController;
 	public FamilyController familyController;
 	public GalleryController galleryController;
 	public ChoosePlayerController choosePlayerController;
@@ -208,7 +208,7 @@ public class MasterController : Task {
 		if (state == 666) {
 			timer -= Time.deltaTime;
 			if (timer < 0.0f) {
-				networkAgent.disconnect ();
+				//networkAgent.disconnect ();
 				timer = 0.25f;
 				state = 667;
 			}
@@ -235,7 +235,7 @@ public class MasterController : Task {
 
 		/*
 		if (state == 20) {
-			www = new WWW (gameController.networkAgent.bootstrapData.commandServer + ":" + gameController.networkAgent.bootstrapData.commandsServerPort + Utils.GetServerStatus);
+			www = new WWW (//gameController.networkAgent.bootstrapData.commandServer + ":" + //gameController.networkAgent.bootstrapData.commandsServerPort + Utils.GetServerStatus);
 			state = 21;
 		}
 		if (state == 21) {
@@ -307,7 +307,7 @@ public class MasterController : Task {
 					continueGameActivity.SetActive (true);
 					continueGameController.startContinueGame (this);
 					//state = 4;
-				}
+				}/*
 				if (startActivity.Equals ("StartNewGame")) {
 					titleActivity.SetActive (false);
 					newGameActivity.SetActive (true);
@@ -319,7 +319,7 @@ public class MasterController : Task {
 					joinGameActivity.SetActive (true);
 					joinNewGameController.startJoinNewGameActivity (this);
 					//state = 4;
-				}
+				}*/
 				if (startActivity.Equals ("Gallery")) {
 					titleActivity.SetActive (false);
 					galleryActivity.SetActive (true);

@@ -140,8 +140,8 @@ public class PreFinishController : Task, ButtonPressListener {
 			setFinishPlayer (gameController.localPlayerN, finishPlayer);
 
 		} else {
-			gameController.networkAgent.sendCommand (0, "setfinishplayer:" +
-				gameController.localPlayerN + ":" + finishPlayer + ":");	
+			//gameController.networkAgent.sendCommand (0, "setfinishplayer:" +
+				//gameController.localPlayerN + ":" + finishPlayer + ":");	
 		}
 
 	}
@@ -153,8 +153,8 @@ public class PreFinishController : Task, ButtonPressListener {
 
 		} else {
 			// tell master about your shoe amount
-			gameController.networkAgent.sendCommand (0, "setshoes:" +
-				gameController.localPlayerN + ":" + nShoes + ":");
+			//gameController.networkAgent.sendCommand (0, "setshoes:" +
+				//gameController.localPlayerN + ":" + nShoes + ":");
 		}
 	}
 
@@ -165,8 +165,8 @@ public class PreFinishController : Task, ButtonPressListener {
 
 		} else {
 			// tell master about your shoe amount
-			gameController.networkAgent.sendCommand (0, "sethitos:" +
-				gameController.localPlayerN + ":" + nHitos + ":");
+			//gameController.networkAgent.sendCommand (0, "sethitos:" +
+				//gameController.localPlayerN + ":" + nHitos + ":");
 		}
 	}
 
@@ -246,11 +246,11 @@ public class PreFinishController : Task, ButtonPressListener {
 			okButtonDeploy.retract ();
 			for (int k = 0; k < GameController.MaxPlayers ; ++k) {
 				if (gameController.playerPresent[k] && k != gameController.localPlayerN) {
-					gameController.networkAgent.sendCommand (gameController.playerList [k].id, "prefinishdone:" +
-					k + ":" +
-					gameController.playerList [k].shoes + ":" +
-					gameController.playerList [k].firstToGoal + ":" +
-					gameController.playerList [k].hitos + ":");
+					//gameController.networkAgent.sendCommand (gameController.playerList [k].id, "prefinishdone:" +
+					//k + ":" +
+					//gameController.playerList [k].shoes + ":" +
+					//gameController.playerList [k].firstToGoal + ":" +
+					//gameController.playerList [k].hitos + ":");
 				}
 			}
 			gameController.playerList [gameController.localPlayerN].hitos = nHitos;

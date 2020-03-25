@@ -53,7 +53,7 @@ public class RouletteController : Task, ButtonPressListener {
 
 		rouletteCanSpin = false;
 
-		gameController.networkAgent.broadcast ("rouletteangle:" + finishAngle + ":" + gameController.turn + ":");
+		//gameController.networkAgent.broadcast ("rouletteangle:" + finishAngle + ":" + gameController.turn + ":");
 
 		timer = 0.0f;
 		state = 1;
@@ -116,7 +116,7 @@ public class RouletteController : Task, ButtonPressListener {
 				//if(selectedItem > 1)
 				//					selectedItem = 1;
 				gameController.selectedItem = selectedItem;
-				gameController.networkAgent.broadcast ("wheelitem:" + selectedItem + ":");
+				//gameController.networkAgent.broadcast ("wheelitem:" + selectedItem + ":");
 				wheelSelection.transform.Rotate (0, 0, -72.0f * selectedItem);
 				wheelSelection.go ();
 			}

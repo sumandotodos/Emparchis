@@ -81,7 +81,7 @@ public class ContinueGameController : Task {
 			if (timeToWait < 0.0f) {
 				timeToWait = Interval;
 
-				gameController.networkAgent.broadcastUnsafe("reportcontinue:" + userLogin + ":" + gameController.quickSaveInfo.randomChallenge + ":2:");
+				//gameController.networkAgent.broadcastUnsafe("reportcontinue:" + userLogin + ":" + gameController.quickSaveInfo.randomChallenge + ":2:");
 			}
 
 			if (reportedPlayers == (neededPlayers-1)) {
@@ -120,7 +120,7 @@ public class ContinueGameController : Task {
 
 			}
 
-			gameController.networkAgent.sendCommandUnsafe (otherUser, "reportcontinue:" + userLogin + ":" + gameController.quickSaveInfo.randomChallenge + ":" + (ttl - 1) + ":");
+			//gameController.networkAgent.sendCommandUnsafe (otherUser, "reportcontinue:" + userLogin + ":" + gameController.quickSaveInfo.randomChallenge + ":" + (ttl - 1) + ":");
 
 		}
 
@@ -198,13 +198,13 @@ public class ContinueGameController : Task {
 
 		joinedPlayers = new List<int> ();
 
-		gameController.networkAgent.initialize ("", 0);
+		//gameController.networkAgent.initialize ("", 0);
 		gameController.gameRoom = userRoom;
-		//gameController.networkAgent.connectAndEnterRoom ();
+		////gameController.networkAgent.connectAndEnterRoom ();
 		// esto de continuar vamos a ver cómo lo hacemos....
 
 
-		gameController.networkAgent.ConnectedToServer = true;
+		//gameController.networkAgent.ConnectedToServer = true;
 
 		MasterController.StaticLog ("<color=yellow>about to set dateTiemText.text with "+gameController.quickSaveInfo.datetime+"</color>");
 		dateTimeText.text = gameController.quickSaveInfo.datetime;
@@ -216,12 +216,12 @@ public class ContinueGameController : Task {
 
 		if (myServerAddress != "") {
 			MasterController.StaticLog ("<color=red>Continue connecting to: " + myServerAddress + "</color>");
-			gameController.networkAgent.StartClient (myServerAddress, ClientDidConnect);
-			gameController.networkAgent.SetServerAddress (myNetworkAddress);
+			//gameController.networkAgent.StartClient (myServerAddress, ClientDidConnect);
+			//gameController.networkAgent.SetServerAddress (myNetworkAddress);
 			MasterController.StaticLog ("<color=red>Continue connecting to: " + myServerAddress + " - done</color>");
 		} else {
 			MasterController.StaticLog ("<color=red>Continue starting server as: " + myNetworkAddress + "</color>");
-			gameController.networkAgent.StartServer (myNetworkAddress);
+			//gameController.networkAgent.StartServer (myNetworkAddress);
 			MasterController.StaticLog ("<color=red>Continue starting server as: " + myNetworkAddress + " - done </color>");
 		}
 
@@ -252,9 +252,9 @@ public class ContinueGameController : Task {
 			if (timeToWait < 0.0f) {
 				timeToWait = Interval;
 				MasterController.StaticLog ("<color=magenta>Sending beacon...</color>");
-				if (gameController.networkAgent.id != -1) {
-					gameController.networkAgent.broadcastUnsafe ("reportcontinue:" + gameController.networkAgent.id + ":" + gameController.quickSaveInfo.randomChallenge + ":2:");
-				}
+				//if (//gameController.networkAgent.id != -1) {
+					//gameController.networkAgent.broadcastUnsafe ("reportcontinue:" + //gameController.networkAgent.id + ":" + gameController.quickSaveInfo.randomChallenge + ":2:");
+				//}
 			}
 
 			if (reportedPlayers == (neededPlayers-1)) {
@@ -271,7 +271,7 @@ public class ContinueGameController : Task {
 
 			gameController.quickSaveInfo.turn--;
 
-			gameController.networkAgent.Cleanup ();
+			//gameController.networkAgent.Cleanup ();
 			//setupRoom ();
 			notifyFinishTask ();
 			working = false;
@@ -287,10 +287,10 @@ public class ContinueGameController : Task {
 
 		for (int i = 0; i < GameController.MaxPlayers; ++i) {
 			if (gameController.playerPresent [i]) {
-				gameController.networkAgent.receiveSeqFor (gameController.playerList [i].id);
+				//gameController.networkAgent.receiveSeqFor (gameController.playerList [i].id);
 			}
 		}
-		//gameController.networkAgent.receiveSeqFor (gameController.masterLogin);
+		////gameController.networkAgent.receiveSeqFor (gameController.masterLogin);
 
 
 	}
@@ -312,7 +312,7 @@ public class ContinueGameController : Task {
 
 			}
 
-			gameController.networkAgent.sendCommandUnsafe (otherUser, "reportcontinue:" + gameController.networkAgent.id + ":" + gameController.quickSaveInfo.randomChallenge + ":" + (ttl - 1) + ":");
+			//gameController.networkAgent.sendCommandUnsafe (otherUser, "reportcontinue:" + //gameController.networkAgent.id + ":" + gameController.quickSaveInfo.randomChallenge + ":" + (ttl - 1) + ":");
 
 		}
 

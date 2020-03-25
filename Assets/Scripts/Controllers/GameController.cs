@@ -157,7 +157,7 @@ public class GameController : MonoBehaviour {
 	[HideInInspector]
 	public int selectedItem;
 
-	public FGBetterNetworkAgent networkAgent;
+	//public FGBetterNetworkAgent networkAgent;
 
 	public SituationChooser situationChooser;
 
@@ -166,8 +166,8 @@ public class GameController : MonoBehaviour {
 	public NotMyRouletteController notMyRouletteController;
 	public ChoosePlayerController choosePlayerController;
 
-	public CreateNewGameController createNewGameController;
-	public JoinNewGameController joinNewGameController;
+	//public CreateNewGameController createNewGameController;
+	//public JoinNewGameController joinNewGameController;
 
 	public MainGameController mainGameController;
 	public CommonTestController commonTestController;
@@ -663,12 +663,12 @@ public class GameController : MonoBehaviour {
 				int.TryParse (safeArg [0], out safeSeqNum);
 				command = safeArg [2];
 				int.TryParse (safeArg [1], out originOfSafeCommand);
-				expectedSeq = networkAgent.receiveSeqFor (originOfSafeCommand);
+				//expectedSeq = networkAgent.receiveSeqFor (originOfSafeCommand);
 				if (safeSeqNum != expectedSeq)
 					processThisCommand = false;
 
 				if (safeSeqNum < expectedSeq) {
-					networkAgent.sendCommandUnsafe (originOfSafeCommand, "ACK:" + safeSeqNum + ":" + localUserLogin);
+				//	networkAgent.sendCommandUnsafe (originOfSafeCommand, "ACK:" + safeSeqNum + ":" + localUserLogin);
 				}
 
 			}
@@ -682,16 +682,16 @@ public class GameController : MonoBehaviour {
 					int.TryParse (arg [1], out sq);
 					int origin;
 					int.TryParse (arg [2], out origin);
-					networkAgent.ack (sq, origin);
+					//networkAgent.ack (sq, origin);
 				}
-
+                /*
 				// playerready is issued by clients trying to join in
 				if (command.StartsWith ("playerready")) {
 
 					int pl;
 					int.TryParse (arg [1], out pl);
 					createNewGameController.addPlayer (pl, arg [2]);
-				} 
+				} */
 
 				// roomplayers:< >:< >:< > etc.... hasta null
 				else if (command.StartsWith ("roomplayers")) {
@@ -700,7 +700,7 @@ public class GameController : MonoBehaviour {
 					while (!arg [id].Equals ("null")) {
 						int origin = -1;
 						int.TryParse (arg [id], out origin);
-						networkAgent.receiveSeqFor (origin); // register roommate for broadcast
+						//networkAgent.receiveSeqFor (origin); // register roommate for broadcast
 						id++;
 
 					}
@@ -720,13 +720,13 @@ public class GameController : MonoBehaviour {
 				}
 
 
-
+                /*
 				// buyforest:<forest>:<playern>:<price>
 				else if (command.StartsWith ("startgame")) {
 
 					joinNewGameController.startGame (arg [1], arg [2]);
 
-				} 
+				} */
 
 
 
@@ -744,7 +744,7 @@ public class GameController : MonoBehaviour {
 					//addNotification (text, param1, param2, param3);
 
 				} 
-
+                /*
 				// setnplayers is issued by NewGameActivityController and accepted by clients
 				else if (command.StartsWith ("setnplayers")) {
 
@@ -752,7 +752,7 @@ public class GameController : MonoBehaviour {
 					int.TryParse (arg [1], out howMany);
 					joinNewGameController.setNPlayers (howMany);
 
-				} 
+				} */
 
 				// query avaiable color
 				else if (command.StartsWith ("querycoloravailable")) {
@@ -795,7 +795,7 @@ public class GameController : MonoBehaviour {
 
 						////mainGameController.end ();
 						////networkAgent.broadcast ("playerend:" + pl + ":");
-						networkAgent.broadcast ("startconfirmend:");
+						//networkAgent.broadcast ("startconfirmend:");
 						mainGameController.showEndVotationPanel ();
 						mainGameController.waitForVotation ();
 					} else { // already taken
@@ -817,7 +817,7 @@ public class GameController : MonoBehaviour {
 						currentTurnPlayer = pl;
 						mainGameController.setTurn (pl);
 						timesPlayed [pl]++;
-						networkAgent.broadcast ("setturn:" + pl + ":");
+						//networkAgent.broadcast ("setturn:" + pl + ":");
 					} else { // already taken
 						// to be implemented later:
 						// send a NACK to the requester
@@ -958,7 +958,7 @@ public class GameController : MonoBehaviour {
 					mainGameController.startAllPlaySituation (t, r);
 
 				} 
-
+                /*
 				//
 				else if (command.StartsWith ("showrepeated")) {
 					joinNewGameController.showRepeatedUser (arg [1]);
@@ -974,7 +974,7 @@ public class GameController : MonoBehaviour {
 				else if (command.StartsWith ("showcompat")) {
 					joinNewGameController.showCompatibility ();
 				}
-
+                */
 				// coloravailable:<color>
 				else if (command.StartsWith ("vote0:")) {
 
@@ -1372,7 +1372,7 @@ public class GameController : MonoBehaviour {
 						noConnectionIcon_N.keepAlive ();
 					}
 
-					networkAgent.poloElapsedTime = 0.0f;
+					//networkAgent.poloElapsedTime = 0.0f;
 
 
 				}
@@ -1395,8 +1395,8 @@ public class GameController : MonoBehaviour {
 		
 				if (safeCommand) { // if safe command, acknowledge processing
 
-					networkAgent.incReceiveSeqFor (originOfSafeCommand);
-					networkAgent.sendCommandUnsafe (originOfSafeCommand, "ACK:" + safeSeqNum + ":" + getUserLogin ());
+					//networkAgent.incReceiveSeqFor (originOfSafeCommand);
+					//networkAgent.sendCommandUnsafe (originOfSafeCommand, "ACK:" + safeSeqNum + ":" + getUserLogin ());
 
 
 				}

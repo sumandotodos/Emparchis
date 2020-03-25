@@ -144,7 +144,9 @@ public class FGTable : MonoBehaviour {
 
 	public int nRows() 
 	{
-		// we trust that all columns have the same length
+        // we trust that all columns have the same length
+        if (column == null) return 0;
+        if (column.Count < 1) return 0;
 		return column [0].nItems();
 	}
 

@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿/*using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -352,26 +352,9 @@ public class FGBetterNetworkAgent : MonoBehaviour {
 			ResendRemainingTime = ResendQuantumTime;
 		}
 
-		//if(connected) poloElapsedTime += Time.deltaTime;
+		
 
-		/*if (tryingToReconnect) {
-			reconnectElapsedTime += Time.deltaTime;
-			if (reconnectElapsedTime > reconnectRetry) {
-				reconnectElapsedTime = 0.0f;
-				int res = connect ();
-				if (res == 0) {
-					tryingToReconnect = false;
-					sendMessage("initgame " + gameController.getUserLogin() + " " + gameController.gameRoom);
-				}
-			}
-		}*/
-
-		/*if (poloElapsedTime > (poloTimeout)) {
-			poloElapsedTime = 0.0f;
-			disconnect ();
-			tryingToReconnect = true;
-			reconnectElapsedTime = reconnectRetry + 1.0f;
-		}*/
+		
 
 		while (commandQueue.Count > 0) {
 
@@ -390,3 +373,4 @@ public class FGBetterNetworkAgent : MonoBehaviour {
 	}
 
 }
+    */

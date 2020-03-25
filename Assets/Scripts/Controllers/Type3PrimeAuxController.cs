@@ -89,11 +89,11 @@ public class Type3PrimeAuxController : Task {
 
 				if (myTurn) 
 				{
-					gameController.networkAgent.broadcast ("nschosenmask:" + chosenMask + ":");
+					//gameController.networkAgent.broadcast ("nschosenmask:" + chosenMask + ":");
 				}
 
 				gameController.synchNumber++; // sync other players
-				gameController.networkAgent.broadcast ("synch:");
+				//gameController.networkAgent.broadcast ("synch:");
 				fader.fadeOut ();
 			}
 		}

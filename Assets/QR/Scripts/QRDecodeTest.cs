@@ -1,4 +1,4 @@
-using System;
+/*using System;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
@@ -137,3 +137,4 @@ public class QRDecodeTest : MonoBehaviour
 	}
 
 }
+*/

@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+﻿/*using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 
@@ -96,11 +96,11 @@ public class JoinNewGameController : Task {
 				myUser = myUser.Replace("@", "_");
 			}
 			//gameController.network_joinGame (arg [1], myUser);
-			//gameController.networkAgent.sendCommand (arg [0], "playerready:" + gameController.getUserLogin () + ":" + "001");
+			////gameController.networkAgent.sendCommand (arg [0], "playerready:" + gameController.getUserLogin () + ":" + "001");
 			gameController.localUserLogin = "-1";
 			masterController.playSound (gong);
-			gameController.networkAgent.initialize ("",
-				0);
+			//gameController.networkAgent.initialize ("",
+				//0);
 			//gameController.network_initGame (gameController.gameRoom);
 			state = 1;
 
@@ -109,8 +109,8 @@ public class JoinNewGameController : Task {
 		//else { // recovery
 
 			//gameController.network_joinGame (arg [1]);
-			////gameController.networkAgent.sendCommand (arg [0], "playerreconnect:" + gameController.getUserLogin ());
-			//gameController.networkAgent.broadcast("playerreconnect:" + gameController.getUserLogin() + ":");
+			//////gameController.networkAgent.sendCommand (arg [0], "playerreconnect:" + gameController.getUserLogin ());
+			////gameController.networkAgent.broadcast("playerreconnect:" + gameController.getUserLogin() + ":");
 
 		//}
 
@@ -167,7 +167,7 @@ public class JoinNewGameController : Task {
 				gameController.quickSaveData.localUserLogin = gameController.localUserLogin;
 				gameController.quickSaveInfo.login = gameController.localUserLogin;
 
-				gameController.networkAgent.sendCommand (0, "playerready:" + gameController.localUserLogin + ":" + "001:");
+				//gameController.networkAgent.sendCommand (0, "playerready:" + gameController.localUserLogin + ":" + "001:");
 				state = 0;
 			}
 
@@ -223,3 +223,4 @@ public class JoinNewGameController : Task {
 		gameController.saveData ();
 	}
 }
+*/

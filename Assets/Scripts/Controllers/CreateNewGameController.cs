@@ -108,7 +108,7 @@ public class CreateNewGameController : Task {
 
 		if (state == 1) { // a new request
 			
-			//newWWW = new WWW (gameController.networkAgent.bootstrapData.loginServer + "/nextRoomID.php");
+			//newWWW = new WWW (//gameController.networkAgent.bootstrapData.loginServer + "/nextRoomID.php");
 
 			state = 2;
 		}
@@ -139,7 +139,7 @@ public class CreateNewGameController : Task {
 				gameController.gameRoom = roomname;
 				gameController.datetimeOfGame = System.DateTime.Now.ToString();
 				gameController.randomChallenge = "Emp" + Random.Range (0, System.Int32.MaxValue ).ToString ();
-				gameController.networkAgent.initialize ("", 0);
+				//gameController.networkAgent.initialize ("", 0);
 				++state;
 			//}
 		}
@@ -202,15 +202,15 @@ public class CreateNewGameController : Task {
 	
 
 		if (nPlayers == GameController.MaxPlayers) {
-			gameController.networkAgent.sendCommandUnsafe (playerId, "nuke:$");
-			gameController.networkAgent.unseeOrigin (playerId);
+			//gameController.networkAgent.sendCommandUnsafe (playerId, "nuke:$");
+			//gameController.networkAgent.unseeOrigin (playerId);
 			return;
 		}
 
 		++nPlayers;
 		seenPlayers.Add (playerId);
 		gameController.nPlayers = nPlayers;
-		gameController.networkAgent.broadcast ("setnplayers:" + nPlayers);
+		//gameController.networkAgent.broadcast ("setnplayers:" + nPlayers);
 		numberOfPlayersText.text = nPlayers + " jugadores";
 		startGameButton.interactable = true;
 	}
@@ -251,7 +251,7 @@ public class CreateNewGameController : Task {
 		fader.fadeOutTask (this);
 		string networkDateTime = gameController.datetimeOfGame.Replace (" ", "_"); // no spaces
 		networkDateTime = networkDateTime.Replace (":", "!"); // or colons, please
-		gameController.networkAgent.broadcast("startgame:" + gameController.randomChallenge + ":" + networkDateTime + ":");
+		//gameController.networkAgent.broadcast("startgame:" + gameController.randomChallenge + ":" + networkDateTime + ":");
 		//gameController.network_sendMessage ("play Emp"); // no cuentes créditos
 		if (masterController.titleController.accountCredits > 0) {
 			masterController.titleController.creditsHUD.text = "Créditos: " + (masterController.titleController.accountCredits - 1);
@@ -263,7 +263,7 @@ public class CreateNewGameController : Task {
 			playersString += (seenPlayers[i] + ":");
 		}
 		playersString += "null:";
-		gameController.networkAgent.broadcast ("roomplayers:" + playersString);
+		//gameController.networkAgent.broadcast ("roomplayers:" + playersString);
 		state = 5;
 		gameController.saveData ();
 	}

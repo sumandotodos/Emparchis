@@ -135,7 +135,7 @@ public class NubarronController : Task {
 				timer += MaxTime;
 			if (timer > MaxTime) {
 				fader.fadeOutTask (this);
-				gameController.networkAgent.broadcast ("finishnotmyroulette:"); // immediately finish notmyroulette
+				//gameController.networkAgent.broadcast ("finishnotmyroulette:"); // immediately finish notmyroulette
 				state = 3;
 			}
 		}

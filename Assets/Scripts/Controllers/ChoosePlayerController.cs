@@ -37,7 +37,7 @@ public class ChoosePlayerController : Task, ButtonPressListener {
 
 		if (chosenPlayer == -1)
 			return;
-		gameController.networkAgent.sendCommand (0, "claim:" + gameController.getUserLogin() + ":" + chosenPlayer + ":");
+		////gameController.networkAgent.sendCommand (0, "claim:" + gameController.getUserLogin() + ":" + chosenPlayer + ":");
 		state = 3; // wait for network response
 	}
 
@@ -85,7 +85,7 @@ public class ChoosePlayerController : Task, ButtonPressListener {
 
 		if (state == 2) { // waiting for fadeout to finish
 			if (!isWaitingForTaskToComplete) {
-				gameController.networkAgent.broadcast ("synch:"); // start a synch
+				//gameController.networkAgent.broadcast ("synch:"); // start a synch
 				gameController.synchCanvas.SetActive(true);
 				state = 4; // synch players
 			}
@@ -138,8 +138,8 @@ public class ChoosePlayerController : Task, ButtonPressListener {
 		if (p >= choosablePlayer.Length)
 			return;
 
-		if (gameController.networkAgent.id == owner)
-			return;
+		//if (//gameController.networkAgent.id == owner)
+		//	return;
 		if (p == chosenPlayer) {
 			choosablePlayer [p].unpress ();
 			chosenPlayer = -1;
@@ -171,14 +171,14 @@ public class ChoosePlayerController : Task, ButtonPressListener {
 			// claim OK: send confirmation message
 			gameController.playerPresent[pl] = true;
 			gameController.playerList [pl].id = claimerId;
-			gameController.networkAgent.broadcast ("setplayerpresent:" + pl + ":" + claimerId + ":");
-			gameController.networkAgent.broadcast ("disableplayer:"+pl+":"+claimerId+":");
-			gameController.networkAgent.sendCommand(claimerId, "claimplayerACK:");
+			//gameController.networkAgent.broadcast ("setplayerpresent:" + pl + ":" + claimerId + ":");
+			//gameController.networkAgent.broadcast ("disableplayer:"+pl+":"+claimerId+":");
+			//gameController.networkAgent.sendCommand(claimerId, "claimplayerACK:");
 			disablePlayer (pl, claimerId);
 
 		} else {
 			// claim denied: send unconfirmation message
-			gameController.networkAgent.sendCommand(claimerId, "claimplayerNACK:");
+			//gameController.networkAgent.sendCommand(claimerId, "claimplayerNACK:");
 		}
 	}
 }

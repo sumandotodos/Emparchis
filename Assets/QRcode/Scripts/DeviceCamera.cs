@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+﻿/*using UnityEngine;
 using System.Collections;
 using TBEasyWebCam;
 
@@ -263,3 +263,4 @@ public class DeviceCamera {
 
 
 }
+*/

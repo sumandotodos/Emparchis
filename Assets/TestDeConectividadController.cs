@@ -13,7 +13,7 @@ public class TestDeConectividadController : MonoBehaviour {
 
 	public RawImage httpIndicatorRI;
 	public RawImage socketIndicatorRI;
-	public FGBetterNetworkAgent networkController;
+	//public FGBetterNetworkAgent networkController;
 
 	public Texture greenIndicator;
 	public Texture redIndicator;
@@ -38,14 +38,14 @@ public class TestDeConectividadController : MonoBehaviour {
 			httpsPass = true;
 		}
 		yield return new WaitForSeconds (1f);
-		int res = networkController.connectGently (server, FGUtils.socketPort);
-		if (res != 0) {
-			socketIndicatorRI.texture = redIndicator;
-		} else {
-			socketIndicatorRI.texture = greenIndicator;
-			socketPass = true;
-		}
-		networkController.disconnectGently ();
+		//int res = networkController.connectGently (server, FGUtils.socketPort);
+		//if (res != 0) {
+		//	socketIndicatorRI.texture = redIndicator;
+		//} else {
+		//	socketIndicatorRI.texture = greenIndicator;
+		//	socketPass = true;
+		//}
+		//networkController.disconnectGently ();
 		if (httpsPass && socketPass) {
 			yield return new WaitForSeconds (2.5f);
 			SceneManager.LoadScene (SceneToLoad);

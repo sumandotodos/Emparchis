@@ -530,10 +530,10 @@ public class CommonTestController_mono : CommonTestController {
 				state2 = 13;
 				//if (votedPlayers == gameController.nPlayers - 1) {
 				//	// GameController.MaxPlayers - 1  is the  'Assertive'  one
-				//	gameController.networkAgent.broadcast ("nsvote:" + (GameController.MaxPlayers - 1) + ":");
+				//	//gameController.networkAgent.broadcast ("nsvote:" + (GameController.MaxPlayers - 1) + ":");
 				//	voteNS((GameController.MaxPlayers - 1));
 				//} else {
-				//	gameController.networkAgent.broadcast ("nsvote:" + votedPlayers + ":");
+				//	//gameController.networkAgent.broadcast ("nsvote:" + votedPlayers + ":");
 				//	voteNS (votedPlayers);
 				//}
 				//state2 = 13;
@@ -680,12 +680,12 @@ public class CommonTestController_mono : CommonTestController {
 			}
 
 			if (state == 30) { // waiting for OK, negativesituation, myturn
-				//gameController.networkAgent.broadcast ("synch:");
+				////gameController.networkAgent.broadcast ("synch:");
 				state = 31;
 			}
 
 			if (state == 40) { // waiting for OK, negativesituation, notMyTurn
-				//gameController.networkAgent.broadcast ("synch:");
+				////gameController.networkAgent.broadcast ("synch:");
 				state = 41;
 
 			}

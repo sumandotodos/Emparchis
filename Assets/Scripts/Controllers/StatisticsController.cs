@@ -318,7 +318,7 @@ public class StatisticsController : Task {
 
 
 		// tell others
-		gameController.networkAgent.broadcast ("scorereport:" + gameController.localPlayerN + ":" + totalTotalBottles + ":");
+		//gameController.networkAgent.broadcast ("scorereport:" + gameController.localPlayerN + ":" + totalTotalBottles + ":");
 
 		// tell myself
 		setScore(gameController.localPlayerN, totalTotalBottles);

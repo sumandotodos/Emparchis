@@ -130,7 +130,7 @@ public class BingoController : Task {
 			if (!isWaitingForTaskToComplete) {
 				state = 10;
 				//gameController.synchNumber++; // tell myself
-				//gameController.networkAgent.broadcast ("synch:"); // tell others
+				////gameController.networkAgent.broadcast ("synch:"); // tell others
 			}
 		}
 

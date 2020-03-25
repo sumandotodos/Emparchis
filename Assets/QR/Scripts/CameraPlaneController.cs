@@ -1,7 +1,7 @@
 ﻿/// <summary>
 /// write by 52cwalk,if you have some question ,please contract lycwalk@gmail.com
 /// </summary>
-
+/*
 using UnityEngine;
 using System.Collections;
 
@@ -196,3 +196,4 @@ public class CameraPlaneController : MonoBehaviour {
 
 
 }
+*/

@@ -324,7 +324,7 @@ public	int neededVotes;
 				//if(selectedItem > 1)
 				//				selectedItem = 1;
 								gameController.selectedItem = selectedItem;
-				gameController.networkAgent.broadcast ("wheelitem:" + selectedItem + ":");
+				//gameController.networkAgent.broadcast ("wheelitem:" + selectedItem + ":");
 				wheelSelection.transform.Rotate (0, 0, -72.0f * selectedItem);
 				wheelSelection.go ();
 			}
@@ -539,7 +539,7 @@ public	int neededVotes;
 		gameController.blueTurnMyValue = score;
 		gameController.yellowTurnMyValue = score;
 		gameController.greenTurnMyValue = score;
-		gameController.networkAgent.broadcast("vote0:" + gameController.localPlayerN + ":" + gameController.playerTurn + ":" + testVote + ":");
+		//gameController.networkAgent.broadcast("vote0:" + gameController.localPlayerN + ":" + gameController.playerTurn + ":" + testVote + ":");
 		botonaco.retract ();
 	}
 

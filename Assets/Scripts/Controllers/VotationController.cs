@@ -280,7 +280,7 @@ public class VotationController : Task {
 				state = 7;
 				gameController.synchCanvas.SetActive (true);
 				gameController.synchNumber++;
-				gameController.networkAgent.broadcast ("synch:");
+				//gameController.networkAgent.broadcast ("synch:");
 				
 
 		}
@@ -356,7 +356,7 @@ public class VotationController : Task {
 		//gameController.turnMyValue = vote;
 
 		gameController.currentVote.Add (new Vote (voteType, vote));
-		gameController.networkAgent.broadcast("vote:" + gameController.localPlayerN + ":" + whichPlayer + ":" + voteType + ":" + vote + ":" );
+		//gameController.networkAgent.broadcast("vote:" + gameController.localPlayerN + ":" + whichPlayer + ":" + voteType + ":" + vote + ":" );
 		for (int i = 0; i < judges.Length; ++i) {
 			judges [i].gameObject.GetComponent<UIScaleFader> ().scaleOut ();
 			judges [i].retract ();

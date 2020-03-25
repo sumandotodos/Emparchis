@@ -91,7 +91,7 @@ public class FamilyController : Task {
 		else if (state == 3) { // wait for fadeout to finish
 
 			if (!isWaitingForTaskToComplete) {
-				gameController.networkAgent.broadcast ("synch:");
+				////gameController.networkAgent.broadcast ("synch:");
 				gameController.synchCanvas.SetActive(true);
 				state = 4; // synch players
 

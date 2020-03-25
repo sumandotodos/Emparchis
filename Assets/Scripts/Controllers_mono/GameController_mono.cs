@@ -63,8 +63,8 @@ public class GameController_mono : MonoBehaviour {
 	public NotMyRouletteController_mono notMyRouletteController;
 	public ChoosePlayerController_mono choosePlayerController;
 
-	public CreateNewGameController_mono createNewGameController;
-	public JoinNewGameController_mono joinNewGameController;
+	//public CreateNewGameController_mono createNewGameController;
+	//public JoinNewGameController_mono joinNewGameController;
 
 	public MainGameController_mono mainGameController;
 	public CommonTestController_mono commonTestController;

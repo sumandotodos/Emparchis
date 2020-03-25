@@ -162,16 +162,16 @@ public class CommonTestController_multi : CommonTestController {
 					//isNegativeSituation = situationChooser.isNegativeSituation (sit.table, sit.row);
 				}
 
-				gameController.networkAgent.broadcast ("setanswers:" +
-					sit.table + ":" +
-					sit.row + ":" +
-					sit.qc + ":" +
-					sit.a1c + ":" +
-					sit.a2c + ":" +
-					FamilyInteger.enumToInt(destFamilyMember.member) + ":" +
-					destFamilyMember.family + ":" +
-					MoodInteger.enumToInt(destFamilyMember.mood) + ":" +
-					subType + ":");
+				//gameController.networkAgent.broadcast ("setanswers:" +
+				//	sit.table + ":" +
+			//		sit.row + ":" +
+			//		sit.qc + ":" +
+			//		sit.a1c + ":" +
+			//		sit.a2c + ":" +
+			//		FamilyInteger.enumToInt(destFamilyMember.member) + ":" +
+			//		destFamilyMember.family + ":" +
+			//		MoodInteger.enumToInt(destFamilyMember.mood) + ":" +
+			//		subType + ":");
 				testText.text = sit.question;
 				notMyRouletteController.setAnswerText (sit.table, sit.row, sit.qc,
 					sit.a1c, sit.a2c, FamilyInteger.enumToInt(destFamilyMember.member), destFamilyMember.family, MoodInteger.enumToInt(destFamilyMember.mood), subType);
@@ -194,7 +194,7 @@ public class CommonTestController_multi : CommonTestController {
 				if (isAllPlaySituation == true) { // a all play situation, special mechanics
 					// tell other players to show test screen
 					helpButton.enabled = true;
-					gameController.networkAgent.broadcast("allplaysituation:" + sit.table + ":" + sit.row + ":");
+					//gameController.networkAgent.broadcast("allplaysituation:" + sit.table + ":" + sit.row + ":");
 					state = 30; // wait for OK button to be hit (alt)
 				} 
 
@@ -373,7 +373,7 @@ public class CommonTestController_multi : CommonTestController {
 			}
 			if (state2 == 4) { 
 				// command player to do the mask thing
-				gameController.networkAgent.sendCommand(gameController.playerList[chosenPlayer].id, "nsmask:" + randomAttitude[negativeSituationPickedPlayers-1] + ":");
+				//gameController.networkAgent.sendCommand(gameController.playerList[chosenPlayer].id, "nsmask:" + randomAttitude[negativeSituationPickedPlayers-1] + ":");
 				state2 = 5;
 			}
 			if (state2 == 5) { // wait until nmt presses mask.OK button
@@ -383,7 +383,7 @@ public class CommonTestController_multi : CommonTestController {
 				state2 = 3; // loop back and choose next player
 			}
 			if (state2 == 10) { // command turn player to do the mask thing
-				gameController.networkAgent.sendCommand(gameController.playerList[gameController.playerTurn].id, "nsmask:" + (GameController.MaxPlayers-1) + ":");
+				//gameController.networkAgent.sendCommand(gameController.playerList[gameController.playerTurn].id, "nsmask:" + (GameController.MaxPlayers-1) + ":");
 				votedPlayers = 0;
 				state2 = 11;
 			}
@@ -395,10 +395,10 @@ public class CommonTestController_multi : CommonTestController {
 				state2 = 13;
 				//if (votedPlayers == gameController.nPlayers - 1) {
 				//	// GameController.MaxPlayers - 1  is the  'Assertive'  one
-				//	gameController.networkAgent.broadcast ("nsvote:" + (GameController.MaxPlayers - 1) + ":");
+				//	//gameController.networkAgent.broadcast ("nsvote:" + (GameController.MaxPlayers - 1) + ":");
 				//	voteNS((GameController.MaxPlayers - 1));
 				//} else {
-				//	gameController.networkAgent.broadcast ("nsvote:" + votedPlayers + ":");
+				//	//gameController.networkAgent.broadcast ("nsvote:" + votedPlayers + ":");
 				//	voteNS (votedPlayers);
 				//}
 				//state2 = 13;
@@ -423,7 +423,7 @@ public class CommonTestController_multi : CommonTestController {
 			}
 			if (state2 == 15) {
 				finishNS ();
-				gameController.networkAgent.broadcast ("finishns:");
+				//gameController.networkAgent.broadcast ("finishns:");
 			}
 
 
@@ -437,7 +437,7 @@ public class CommonTestController_multi : CommonTestController {
 		if (state == 31) {
 			if (!isWaitingForTaskToComplete) {
 				syncCanvas.SetActive (true);
-				gameController.networkAgent.broadcast ("synch:");
+				//gameController.networkAgent.broadcast ("synch:");
 				state = 32;
 			}
 		}
@@ -467,7 +467,7 @@ public class CommonTestController_multi : CommonTestController {
 		if (state == 41) {
 			if (!isWaitingForTaskToComplete) {
 				syncCanvas.SetActive (true);	
-				gameController.networkAgent.broadcast ("synch:");
+				//gameController.networkAgent.broadcast ("synch:");
 				state = 42;
 			}
 		}
@@ -549,7 +549,7 @@ public class CommonTestController_multi : CommonTestController {
 			if (state == 3) { // waiting for OK, normal situation
 				if ((1 > 2) && tType == 0) { // los que están lejos, hay que votar
 					state = 60; // type 0 mechanics
-					gameController.networkAgent.broadcast ("votation:");
+					//gameController.networkAgent.broadcast ("votation:");
 					notMyRouletteController.type0Vote = true; // must vote on this turn, yes or yes
 				} 
 				else { // no hay que votar
@@ -558,12 +558,12 @@ public class CommonTestController_multi : CommonTestController {
 			}
 
 			if (state == 30) { // waiting for OK, negativesituation, myturn
-				//gameController.networkAgent.broadcast ("synch:");
+				////gameController.networkAgent.broadcast ("synch:");
 				state = 31;
 			}
 
 			if (state == 40) { // waiting for OK, negativesituation, notMyTurn
-				//gameController.networkAgent.broadcast ("synch:");
+				////gameController.networkAgent.broadcast ("synch:");
 				state = 41;
 
 			}
@@ -580,7 +580,7 @@ public class CommonTestController_multi : CommonTestController {
 		int i;
 		i = 9;
 		//mask.SetActive(false);
-		gameController.networkAgent.sendCommand (0, "maskokbutton:");
+		//gameController.networkAgent.sendCommand (0, "maskokbutton:");
 
 
 	}
